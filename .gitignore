@@ -1,0 +1,6 @@
+.env
+rlhf_feedback.json
+__pycache__/
+*.pyc
+reward_model/
+ppo_model/
