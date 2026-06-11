@@ -31,8 +31,7 @@ def main():
         learning_rate=PPO_LEARNING_RATE,
         batch_size=PPO_BATCH_SIZE,
         mini_batch_size=PPO_BATCH_SIZE,
-        log_with=None
-    )
+        log_with=None)
     ppo_trainer = PPOTrainer(
         config=config,
         model=ppo_model,
