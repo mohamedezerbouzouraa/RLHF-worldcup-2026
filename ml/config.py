@@ -1,4 +1,4 @@
-BASE_MODEL = "llama-3.3-70b-versatile"
+BASE_MODEL = "llama-4.0-70b-versatile"
 REWARD_MODEL_DIR = "./reward_model"
 PPO_MODEL_DIR = "./ppo_model"
 MAX_LENGTH = 128
