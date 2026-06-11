@@ -6,7 +6,7 @@ def get_world_cup_prompts():
         "How dangerous is Morocco in the 2026 World Cup?",
         "What is Germany's style of play at the World Cup?",
         "Tell me about Spain's tiki-taka football system.",
-        "Why is England considered a dark horse for 2026?",
+        "Why is England considered a dark horse for 2026 ?",
         "Describe Portugal's attacking football philosophy.",
         "How important is Son Heung-min for South Korea?",
         "What makes Netherlands a threat at every World Cup?",
