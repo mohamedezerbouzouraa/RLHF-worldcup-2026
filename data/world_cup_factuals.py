@@ -22,7 +22,7 @@ TEAM_INFO = {
         "coach": "Javier Aguirre",
         "key_players": ["Hirving Lozano", "Santiago Giménez", "Edson Álvarez"],
         "play_style": "Counter-attacking, physical, experienced",
-        "host_nation": True,
+        "host_nation": True ,
         "fun_fact": "Mexico has reached the Round of 16 in their last 7 consecutive World Cups."
     },
     "South Africa": {
