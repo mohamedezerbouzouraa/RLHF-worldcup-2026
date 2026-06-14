@@ -14,4 +14,5 @@ def get_world_cup_prompts():
         "How will Japan approach the 2026 World Cup?",
         "Discuss Italy's defensive rebuilding path.",
         "Can Belgium's new generation surprise in 2026?"
+        
     ]
