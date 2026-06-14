@@ -17,7 +17,6 @@ def load_feedback():
         except Exception:
             pass
         return []
-
 def to_ascii(text):
     if not isinstance(text, str):
         return ""
