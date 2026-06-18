@@ -8,6 +8,7 @@ from flask import Flask, request, jsonify, render_template, Response
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from data import GROUPS, TEAM_INFO, GROUP_NARRATIVES, WC_KNOWLEDGE, load_feedback, save_feedback
 GROQ_API_KEY = "lhne t7ot l'api key mte3k"
+
 try:
     from groq import Groq
     groq_client = Groq(api_key=GROQ_API_KEY)
