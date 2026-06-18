@@ -110,8 +110,7 @@ TEAM_INFO = {
         "key_players": ["Vinícius Jr.", "Rodrygo", "Marquinhos"],
         "play_style": "Samba football, creative, explosive attacking",
         "host_nation": False,
-        "fun_fact": "Brazil are the only nation to have participated in every single World Cup (22 tournaments)."
-    },
+        "fun_fact": "Brazil are the only nation to have participated in every single World Cup (22 tournaments)."},
     "Morocco": {
         "flag": "🇲🇦",
         "fifa_rank": 14,
