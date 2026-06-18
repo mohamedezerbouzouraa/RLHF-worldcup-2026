@@ -28,8 +28,7 @@ def save_feedback(entry):
         "question": to_ascii(entry.get("question", "")),
         "answer": to_ascii(entry.get("answer", ""))[:500],
         "score": int(entry.get("score", 1)),
-        "comment": to_ascii(entry.get("comment", ""))
-    }
+        "comment": to_ascii(entry.get("comment", ""))}
     data = load_feedback()
     data.append(safe)
     try:
