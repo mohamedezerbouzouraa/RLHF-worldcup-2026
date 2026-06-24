@@ -11,6 +11,7 @@ GROUPS = {
     "J": ["Argentina", "Algeria", "Austria", "Jordan"],
     "K": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"],
     "L": ["England", "Croatia", "Ghana", "Panama"],
+    
 }
 TEAM_INFO = {
     "Mexico": {
