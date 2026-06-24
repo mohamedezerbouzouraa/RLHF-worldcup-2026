@@ -24,10 +24,10 @@ def to_ascii(text):
 
 def save_feedback(entry):
     safe = {
-        "timestamp": float(entry.get("timestamp")),
-        "question": to_ascii(entry.get("question", "")),
-        "answer": to_ascii(entry.get("answer", ""))[:500],
-        "score": int(entry.get("score", 1)),
+        "timestamp":  float(entry.get("timestamp")),
+        "question":  to_ascii(entry.get("question", "")),
+        "answer":  to_ascii(entry.get("answer", ""))[:500],
+        "score":  int(entry.get("score", 1)),
         "comment": to_ascii(entry.get("comment", ""))}
     data = load_feedback()
     data.append(safe)
