@@ -38,8 +38,7 @@ def main():
         ref_model=ref_model,
         tokenizer=ppo_tokenizer,
         dataset=dataset,
-        data_collator=collator
-    )
+        data_collator=collator)
     def compute_reward(texts):
         inputs = rm_tokenizer(texts, return_tensors="pt", padding=True, truncation=True)
         with torch.no_grad():
