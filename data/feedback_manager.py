@@ -1,6 +1,5 @@
 import os
 import json
-
 FEEDBACK_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "../rlhf_feedback.json"))
 def load_feedback():
     if not os.path.exists(FEEDBACK_FILE):
