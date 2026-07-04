@@ -41,8 +41,7 @@ def main():
         save_strategy="epoch",
         logging_steps=20,
         load_best_model_at_end=True,
-        report_to="none",
-    )
+        report_to="none",)
     trainer = RewardTrainer(
         model=model,
         tokenizer=tokenizer,
