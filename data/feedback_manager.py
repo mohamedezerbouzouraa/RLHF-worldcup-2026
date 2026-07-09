@@ -4,6 +4,7 @@ FEEDBACK_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "../rlhf
 def load_feedback():
     if not os.path.exists(FEEDBACK_FILE):
         return []
+        
     try:
         with open(FEEDBACK_FILE, "r", encoding="utf-8") as f:
             content = f.read().strip()
