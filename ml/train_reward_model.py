@@ -12,6 +12,7 @@ def main():
     preference_data = load_dataset(
         "trl-internal-testing/hh-rlhf-helpful-base-trl-style",
         split="train")
+    
     split = preference_data.train_test_split(test_size=0.1, seed=42)
     train_data = split["train"]
     eval_data = split["test"]
